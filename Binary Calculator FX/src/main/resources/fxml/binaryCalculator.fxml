@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BinaryCalculatorController">
+   <children>
+      <Button fx:id="addButton" layoutX="106.0" layoutY="212.0" mnemonicParsing="false" onAction="#calculate" prefHeight="47.0" prefWidth="52.0" text="Add" />
+      <Button fx:id="subButton" layoutX="219.0" layoutY="212.0" mnemonicParsing="false" onAction="#calculate" prefHeight="47.0" prefWidth="52.0" text="Subtract" />
+      <Button fx:id="multButton" layoutX="334.0" layoutY="212.0" mnemonicParsing="false" onAction="#calculate" prefHeight="47.0" prefWidth="52.0" text="Multiply" />
+      <Button fx:id="divButton" layoutX="443.0" layoutY="212.0" mnemonicParsing="false" onAction="#calculate" prefHeight="47.0" prefWidth="52.0" text="Divide" />
+      <Text layoutX="85.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solution:" />
+      <TextField fx:id="solution" layoutX="161.0" layoutY="312.0" />
+      <Text layoutX="132.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number #1" />
+      <Text layoutX="132.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number #2" />
+      <TextField fx:id="firstNumber" layoutX="271.0" layoutY="68.0" prefHeight="25.0" prefWidth="244.0" />
+      <TextField fx:id="secondNumber" layoutX="271.0" layoutY="141.0" prefHeight="25.0" prefWidth="244.0" />
+   </children>
+</AnchorPane>
