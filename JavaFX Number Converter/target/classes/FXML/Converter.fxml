@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConverterController">
+   <children>
+      <Label fx:id="decimalNr" layoutX="118.0" layoutY="59.0" prefHeight="42.0" prefWidth="116.0" text="Decimal">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="decimalNumber" layoutX="243.0" layoutY="67.0" prefHeight="25.0" prefWidth="245.0" text="0" />
+      <TextField fx:id="binaryNumber" layoutX="243.0" layoutY="118.0" prefHeight="25.0" prefWidth="245.0" text="0" />
+      <TextField fx:id="hexaNumber" layoutX="243.0" layoutY="168.0" prefHeight="25.0" prefWidth="245.0" text="0" />
+      <TextField fx:id="octalNumber" layoutX="243.0" layoutY="223.0" prefHeight="25.0" prefWidth="245.0" text="0" />
+      <Label fx:id="binaryNr" layoutX="118.0" layoutY="110.0" prefHeight="42.0" prefWidth="116.0" text="Binary">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="hexaNr" layoutX="118.0" layoutY="160.0" prefHeight="42.0" prefWidth="134.0" text="Hexadecimal">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="octalNr" layoutX="118.0" layoutY="215.0" prefHeight="42.0" prefWidth="116.0" text="Octal">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
